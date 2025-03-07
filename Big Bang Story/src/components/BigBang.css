@@ -1,0 +1,16 @@
+.big-bang-container{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background: rgb(122,6,237);
+    background: radial-gradient(circle, rgba(122,6,237,0.8883928571428571) 0%, rgba(15,28,251,1) 100%);
+    margin: 20px auto;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.big-bang-container p{
+    color: navy;
+    line-height: 1.6;
+}

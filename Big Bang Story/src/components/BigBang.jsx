@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { LanguageContext } from "../contexts/LanguageContext";
+import "./BigBang.css";
 
 const BigBang = () => {
   const { language } = useContext(LanguageContext);
@@ -10,7 +11,7 @@ const BigBang = () => {
   };
 
   return (
-    <div style={{ padding: "20px", textAlign: "center", fontSize: "18px" }}>
+    <div className="big-bang-container">
       <p>{texts[language]}</p>
     </div>
   );
